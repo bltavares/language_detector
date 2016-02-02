@@ -65,9 +65,9 @@ impl<'a> English<'a> {
                               .flat_map(|x| self.trigrams.get(&x as &str))
                               .fold(0, std::ops::Add::add);
 
-        let percentage = score as f32 / phrase.len() as f32;
+        let percentage = score as f32 / (phrase.len() * 3) as f32;
 
-        percentage > 10.0
+        percentage > 5.0
     }
 }
 

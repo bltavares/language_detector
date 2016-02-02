@@ -7,6 +7,8 @@ The code is a naive list of trigrams that we check for the percentage on the phr
 
 This contains both as lib and a binary.
 
+[Documentation](http://docs.bltavares.link/language_detector/)
+
 ## Examples of using it as a library
 
 To use it as a library, include it as a dependency:
